@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name connector-simm)(type Legacy)(uri /home/pbinkowski/projects/kicad-lib/connector-simm.lib)(options "")(descr ""))
+  (lib (name motorola-68xxx)(type Legacy)(uri /home/pbinkowski/projects/kicad-lib/motorola-68xxx.lib)(options "")(descr ""))
+  (lib (name xilinx-xc95)(type Legacy)(uri /home/pbinkowski/projects/kicad-lib/xilinx-xc95.lib)(options "")(descr ""))
+  (lib (name winbond-nor)(type Legacy)(uri /home/pbinkowski/projects/kicad-lib/winbond-nor.lib)(options "")(descr ""))
+  (lib (name issi-sram)(type Legacy)(uri /home/pbinkowski/projects/kicad-lib/issi-sram.lib)(options "")(descr ""))
+  (lib (name connector-din)(type Legacy)(uri /home/pbinkowski/projects/kicad-lib/connector-din.lib)(options "")(descr ""))
+)

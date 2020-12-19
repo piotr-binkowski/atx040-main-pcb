@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name pga)(type KiCad)(uri /home/pbinkowski/projects/kicad-lib/pga.pretty)(options "")(descr ""))
+  (lib (name edge)(type KiCad)(uri /home/pbinkowski/projects/kicad-lib/edge.pretty)(options "")(descr ""))
+  (lib (name connector)(type KiCad)(uri /home/pbinkowski/projects/kicad-lib/connector.pretty)(options "")(descr ""))
+)
