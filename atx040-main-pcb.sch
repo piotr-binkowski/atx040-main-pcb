@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -18,12 +18,6 @@ S 1000 1000 1000 500
 U 5FD6A067
 F0 "MC68040" 50
 F1 "cpu.sch" 50
-$EndSheet
-$Sheet
-S 1000 2000 1000 500 
-U 6036E97B
-F0 "Expansion" 50
-F1 "exp.sch" 50
 $EndSheet
 $Comp
 L Mechanical:MountingHole H1
@@ -69,12 +63,6 @@ F 3 "~" H 2000 3500 50  0001 C CNN
 	1    2000 3500
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 2500 1000 1000 500 
-U 6043A801
-F0 "DRAM" 50
-F1 "dram.sch" 50
-$EndSheet
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5FDAB144
@@ -98,9 +86,33 @@ F 3 "~" H 2000 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2500 2000 1000 500 
+S 1000 2000 1000 500 
 U 5FE15509
 F0 "Power" 50
 F1 "pwr.sch" 50
+$EndSheet
+$Sheet
+S 2500 1000 1000 500 
+U 5FE60CFF
+F0 "XC6SLX16" 50
+F1 "fpga.sch" 50
+$EndSheet
+$Sheet
+S 2500 2000 1000 500 
+U 5FE47104
+F0 "SDRAM" 50
+F1 "sdram.sch" 50
+$EndSheet
+$Sheet
+S 4000 1000 1000 500 
+U 6146308B
+F0 "VGA Output" 50
+F1 "vga.sch" 50
+$EndSheet
+$Sheet
+S 4000 2000 1000 500 
+U 5FE7A55F
+F0 "Misc IO" 50
+F1 "io.sch" 50
 $EndSheet
 $EndSCHEMATC
